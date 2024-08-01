@@ -1,0 +1,937 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border: none;
+}
+
+.topnav h1 {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.topnav p {
+    color: white;
+}
+
+.topnav a {
+    color: white;
+    text-decoration: none;
+}
+
+.topnav {
+    background-image: url("img1.jpeg");
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-size: cover;
+}
+
+/* hero-section */
+
+.hero-section {
+    background-image: url("img1.jpeg");
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+}
+
+
+
+.layer2 {
+    position: absolute;
+    height: 66px;
+    width: 98px;
+    background-image: url("grey.png");
+    background-size: contain;
+    border: none;
+    margin-left: 50%;
+    bottom: 0;
+}
+
+.layer3 {
+    position: absolute;
+    height: 63px;
+    width: 60px;
+    background-image: url("blue.png");
+    border: none;
+    background-size: contain;
+    bottom: 0;
+}
+
+.layer4 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-image: url("yellow.png");
+    border: none;
+    background-size: cover;
+    right: 0px;
+    border: none;
+        
+    bottom: 0;
+}
+
+.layer5 {
+    position: absolute;
+    height: 340px;
+    width: 200px;
+    background-image: url("orange.png");
+    border: none;
+    background-size: cover;
+    right: 0;
+}
+
+.layer6 {
+    position: absolute;
+    height: 400px;
+    width: 235px;
+    background-image: url("mustard.png");
+    border: none;
+    background-size: contain;
+    margin-top: 260px;
+
+}
+
+.layer7 {
+    position: absolute;
+    height: 150px;
+    width: 120px;
+    background-image: url("white.png");
+    background-size: cover;
+    border: none;
+}
+
+.desp {
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    color: white;
+    /* border: 1px solid white; */
+    border: none;
+    margin-left: 20%;
+    margin-top: 150px;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    display: block;
+    text-align: center;
+}
+
+.desp h1 {
+    font-size: 80px;
+}
+
+.desp p {
+    font-size: 20px;
+}
+
+.layer8 {
+    position: absolute;
+    height: 66px;
+    width: 60px;
+    border: none;
+    background-image: url("earth.png");
+    background-size: contain;
+    margin-left: 45%;
+    margin-top: -53px;
+}
+
+.layer9 {
+    position: absolute;
+    height: 62px;
+    width: 60px;
+    border: none;
+    background-image: url("water.png");
+    background-size: contain;
+    margin-left: 10%;
+    margin-top: 185px;
+}
+
+/* button-section */
+
+.action-button {
+    padding: 23px 64px;
+    background-color: #820193;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: white;
+}
+
+
+/* page - 2 */
+
+.page2 {
+    height: 100vh;
+    background-image: url("img1.jpeg");
+    background-size: cover;
+    /* border: 1px solid white; */
+}
+
+.ecclipse1 {
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid green; */
+    background-image: url("Ecclipse1.png");
+    background-size: cover;
+}
+
+.sun {
+    width: 100%;
+    height: 95%;
+    /* border: 1px solid red; */
+    background-image: url("sun.png");
+    background-size: inherit;
+}
+
+.sun-info {
+    width: 826px;
+    height: 350px;
+    /* border: 1px solid white; */
+    margin-left: 120px;
+    margin-top: -120px;
+}  
+
+.sun-info h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.sun-info p {
+    color: white;
+    font-size: 18px;
+}
+
+.star {
+    width: 62.62px;
+    height: 62.63px;
+    /* border: 1px solid red; */
+    margin-left: 1296px;
+    margin-top: -240px;
+    background-image: url("star.png");
+}
+
+.cards {
+    width: 770px;
+    height: 190px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.sun-icon {
+    width: 20%;
+    height: 20%;
+    border: 1px solid green;
+}
+
+.box1 {
+    width: 45%;
+    border: 4px solid #3c0a44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 14px;
+    background-color: #2e0a3e;
+    padding-top: 15px;
+}
+
+.box1:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 4px 8px
+    rgba(0,0,0,0.15);
+}
+
+/* page - 3 */
+
+.page3 {
+    position: relative;
+    height: 100vh;
+    background-image: url("img1.jpeg");
+    background-size: cover;
+    /* border: 2px solid white; */
+    display: flex;
+    border: none;
+}
+
+.mercury {
+    height: 86%;
+    width: 36%;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    background-image: url("mercury.png");
+    background-size: cover;
+}
+
+.mercury-desp {
+    height: 608px;
+    width: 740px;
+    /* border: 1px solid red; */
+    position: absolute;
+    margin-left: 602px;
+    margin-top: 80px;
+    color: white;
+    gap: 24px;
+    display: block;
+    
+}
+
+.mercury-desp h1 {
+    font-size: 60px;
+}
+
+.mercury-desp p {
+    font-size: 20px;
+}
+
+.Box2 {
+    width: 45%;
+    height: 40%;
+    border: 4px solid #3c0a44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: block;
+    /* text-align: center; */
+    border-radius: 10px;
+    margin-top: 14px;
+    background-color: #2e0a3e;
+    padding-top: 15px;
+}
+
+.Box2:hover {
+    transform: scale(1.06);
+    box-shadow: 0px 4px 8px
+    rgba(0,0,0,0.15);
+}
+
+.mercury-icon {
+    width: 20%;
+    height: 36%;
+    /* border: 1px solid red; */
+    margin-top: 7%;
+    background-image: url("donut_large.png");
+    background-size: cover;
+}
+
+.mercury-icon2 {
+    width: 10%;
+    height: 50%;
+    /* border: 1px solid greenyellow; */
+    background-image: url("red-thermo.png");
+    background-size: cover;
+    margin-left: 5%;
+}
+
+.mercury-icon3 {
+    width: 10%;
+    height: 50%;
+    /* border: 1px solid greenyellow; */
+    background-image: url("green-thermo.png");
+    background-size: cover;
+    margin-left: 5%;
+}
+
+.card-info {
+    width: 70%;
+    height: 80%;
+    /* border: 1px solid white; */
+    text-align: center;
+    margin-left: 28%;
+    margin-top: -24%;
+}
+
+.card-info2 {
+    margin-top: -30%;
+    /* margin-left: 10%; */
+}
+
+.cards2 {
+    width: 800px;
+    height: 450px;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6%;
+    gap: 35px;
+}
+
+/* page - 4 */
+
+.page4 {
+    height: 100vh;
+    background-image: url("img1.jpeg");
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+.venus {
+    width: 40%;
+    height: 87%;
+    background-image: url("venus.png");
+    background-size: cover;
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.ecclipse2 {
+    width: 43%;
+    height: 92%;
+    background-image: url("Ecclipse2.png");
+    background-size: cover;
+    /* border: 1px solid white; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.ecclipse3 {
+    width: 46%;
+    height: 96%;
+    background-image: url("Ecclipse3.png");
+    background-size: cover;
+    /* border: 1px solid green; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.venus-info {
+    width: 50%;
+    height: 78%;
+    /* border: 1px solid red; */
+    margin-top: 8%;
+    margin-left: 8%;
+    position: absolute;
+    color: white;
+}
+
+.venus-info h1 {
+    font-size: 80px;
+}
+
+.venus-info p {
+    font-size: 20px;
+}
+
+.container1 {
+    width: 25%;
+    height: 63%;
+    /* border: 1px solid green; */
+    margin-top: 20%;
+    margin-left: 7%;
+    /* gap: 20px; */
+    position: absolute;
+}
+
+.box2 {
+    width: 90%;
+    height: 30%;
+    border: 4px solid #3c0a44;
+    display: block;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    color: white;
+    display: block;
+    /* text-align: center; */
+    border-radius: 10px;
+    margin-top: 15%;
+    background-color: #2e0a3e;
+    padding-top: 15px;
+    flex-wrap: nowrap;
+}
+
+.box2:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 4px 8px
+    rgba(0,0,0,0.15);
+}
+
+.icon {
+    width: 20%;
+    height: 42%;
+    /* border: 1px solid white; */
+    margin-left: 3%;
+    margin-top: 10%;
+    background-image: url("donut_large.png");
+    background-size: cover;
+}
+
+.icon2 {
+    width: 12%;
+    height: 60%;
+    background-image: url("red-thermo.png");
+    background-size: cover;
+}
+
+.inner-box {
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid green; */
+    margin-top: -30%;
+    margin-left: 14%;
+    text-align: center;
+}
+
+.inner-box2 {
+    margin-top: -37%;
+}
+
+.inner-box h1 {
+    font-size: 3rem;
+}
+
+/* page - 5 */
+
+.earth {
+    width: 100%;
+    height: 100vh;
+    background-image: url("background.png");
+    background-size: cover;
+    position: relative;
+}
+
+.stars {
+    width: 100%;
+    height: 100%;
+    background-image: url("stars.png");
+    position: relative;
+}
+
+.big-stars {
+    width: 100%;
+    height: 100%;
+    background-image: url("bigstars.png");
+    position: relative;
+}
+
+.earth-img {
+    height: 65%;
+    width: 95%;
+    /* border: 1px solid green; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-image: url("newearth.png");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+/* .earth-ecclipse2 {
+    height: 75%;
+    width: 95%;
+    border: 1px solid green;
+    position: absolute;
+    bottom: 0;
+    margin-left: 2%;
+    background-image: url("Ecclipse2.png");
+    background-size: auto
+} */
+
+.earth-inner-text {
+    width: 70%;
+    height: 20%;
+    /* border: 1px solid green; */
+    margin-top: 5%;
+    text-align: center;
+}
+
+.earth-info {
+    position: absolute;
+    height: 18%;
+    width: 45%;
+    /* border: 1px solid red; */
+    margin-top: 4%;
+    margin-left: 5%;
+    color: white;
+}
+
+.earth-info h1 {
+    font-size: 3rem;
+}
+
+.earth-info p {
+    font-size: 1.12rem;
+}
+
+.earth-container {
+    position: absolute;
+    width: 27%;
+    height: 20%;
+    border: 4px solid #3c0a44;
+    margin-left: 60%;
+    margin-top: 4%;
+    display: flex;
+    background-color: #2e0a3e;
+    border-radius: 12px;
+}
+
+.earth-container:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 4px 8px
+    rgba(0,0,0,0.15);
+}
+
+.earth-icon {
+    width: 30%;
+    height: 70%;
+    /* border: 1px solid red; */
+    background-image: url("donut_large.png");
+    background-size: contain;
+    margin-top: 20px;
+}
+
+.earth-text-box {
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid yellow; */
+    /* display: flex; */
+    color: white;
+    text-align: center;
+    /* padding-top: 10px; */
+    font-size: 2rem;
+}
+
+.earth-text-box p {
+    font-weight: 600;
+}
+
+.rocket {
+    width: 12%;
+    height: 22%;
+    /* border: 1px solid red; */
+    background-image: url("rocket.png");
+    position: absolute;
+    left: 0;
+    margin-top: 25%;
+    background-size: cover;
+}
+
+.fire {
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    left: 0;
+    /* border: 1px solid yellow; */
+    margin-top: 50%;
+    background-image: url("fire.png");
+}
+
+.moon {
+    position: absolute;
+    width: 12%;
+    height: 6%;
+    /* border: 1px solid white; */
+    color: white;
+    /* text-align: center; */
+    margin-left: 55%;
+    margin-top: 20%;
+    font-size: 1.3rem;
+}
+
+.arrow {
+    position: absolute;
+    width: 12%;
+    height: 13%;
+    /* border: 1px solid white; */
+    color: white;
+    /* text-align: center; */
+    margin-left: 69%;
+    margin-top: 18%; 
+    background-image: url("arrow.png");
+    background-size: cover;
+}
+
+/* page - 6 */
+
+.mars {
+    width: 100%;
+    height: 100vh;
+    /* background-color: yellowgreen; */
+    background-image: url("background2.png");
+    background-size: cover;
+    position: relative;
+}
+
+.mars-img {
+    height: 60%;
+    width: 42%;
+    position: absolute;
+    bottom: 0;
+    /* border: 1px solid red; */
+    background-image: url("mars-img.png");
+    background-size: cover;
+}
+
+.mars-info-container {
+    height: 80%;
+    width: 30%;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 0;
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* display: block; */
+}
+
+.mars-card {
+    width: 80%;
+    height: 25%;
+    border: 5px solid #3c0a44;
+    position: relative;
+    display: block;
+    color: white;
+    display: flex;
+    background-color: #2e0a3e;
+    border-radius: 12px;
+}
+
+.mars-card:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 4px 8px
+    rgba(0,0,0,0.15);
+}
+
+.mars-icon {
+    width: 24%;
+    height: 50%;
+    /* border: 1px solid green; */
+    position: absolute;
+    margin-top: 11%;
+    background-image: url("donut_large.png");
+}
+
+.mars-icon2 {
+    background-image: url("green-thermo.png");
+    width: 9%;
+    margin-left: 8%;
+}
+
+.mars-icon3 {
+    background-image: url("red-thermo.png");
+    width: 9%;
+    margin-left: 8%;
+}
+
+.mars-text-box {
+    width: 70%;
+    height: 100%;
+    /* border: 2px solid lightsalmon; */
+    position: absolute;
+    position: absolute;
+    right: 0;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.mars-text-box p {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.mars-text-box h1 {
+    font-size: 3rem;
+}
+
+.mars-info {
+    width: 42%;
+    height: 25%;
+    /* border: 2px solid red; */
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 7%;
+    color: white;
+}
+.mars-info h1 {
+    font-size: 4rem;
+}
+
+.mars-info p {
+    font-size: 18px;
+}
+
+.mars-info2 {
+    width: 23%;
+    height: 15%;
+    /* border: 2px solid red; */
+    position: absolute;
+    margin-top: 33%;
+    margin-left: 45%;
+    color: white;
+    /* border: 1px solid green; */
+}
+
+.mars-info2 h1 {
+    font-size: 2rem;
+}
+
+.mars-info2 p {
+    font-size: 18px;
+}
+
+.mars-arrow {
+    position: absolute;
+    width: 8%;
+    height: 10%;
+    /* border: 1px solid white; */
+    color: white;
+    /* text-align: center; */
+    margin-left: 37%;
+    margin-top: 27%; 
+    background-image: url("reverse-arrow.png");
+    background-size: cover;
+}
+
+/* footer */
+
+.footer {
+    height: 30rem;
+    /* border: 1px solid red; */
+    background-image: url("footer-bc.png");
+    background-size: cover;
+    position: relative;
+}
+
+.footer-planet {
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid green; */
+    background-image: url("footer-planet.png");
+    background-size: cover;
+}
+
+.footer-box {
+    width: 90%;
+    height: 70%;
+    border: 2px solid #3c0a44;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    background-color: #1e1e1e;
+    border-radius: 20px; 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.foot-text {
+    width: 50%;
+    height: 60%;
+    /* border: 1px solid white; */
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.foot-text h1 {
+    font-size: 3rem;
+}
+
+
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #8840cc;
+    width: 620px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    /* border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px; */
+    border: 20px solid #1e1e1e;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 20px;
+}   
+
+.search-icon {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.2rem;
+    background-color: #8840cc;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: white;
+    border-radius: 20px;
+}
+
+.foot-bar {
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid green; */
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.foot-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+.foot-bar h1 {
+    display: flex;
+    align-items: center;
+}
+
+.leaf-box {
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid yellow; */
+    background-image: url("eco.png");
+    background-size: cover;
+    /* margin-left: 150px; */
+}
+
+
+
+
